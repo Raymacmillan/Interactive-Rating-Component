@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    font-family: "Overpass",sans-serif;
+
+    ;
+ }
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: hsl(216, 12%, 8%);
+
+    height: 100vh;
+}
+
+.rating_section , .appreciation_section {
+    background:   hsl(213, 19%, 18%);
+
+    border-radius: 15px;
+
+    padding: 25px;
+}
+
+.appreciation_section {
+    text-align: center;
+}
+
+.show_rating_section {
+    display: flex;
+}
+
+.star img {
+    border-radius: 50%;
+
+    background:  hsl(200, 3%, 19%);
+
+    box-shadow: 5px 5px 10px hsl(213, 19%, 18%);
+
+    padding: 15px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+
+    margin: 10px 0;
+}
+
+p {
+    font-size: 15px;
+    
+    color: hsl(217, 12%, 63%);
+}
+
+.rating_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 20px 0;
+}
+
+.rating_btn button {
+    border-radius: 50%;
+    width: 38px;
+
+    border: none;
+    outline: none;
+
+    background: hsl(200, 3%, 19%);
+    color: hsl(217, 12%, 63%);
+
+    padding: 12px;
+
+    cursor: pointer;
+}
+
+.rating_btn button:hover {
+    background: hsl(25, 97%, 53%);
+    
+    color: hsl(0, 0%, 100%);
+}
+
+.rating_btn .rating_btn_active {
+    background: hsl(217, 12%, 63%);
+
+    color: hsl(0, 0%, 100%);
+}
+
+.sub_btn button {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+
+    border-radius: 25px;
+
+    padding: 13px;
+
+    margin: 10px 0 10px;
+
+    outline: none;
+    border: none;
+
+    background: hsl(25, 97%, 53%);
+
+    cursor: pointer;
+}
+
+.sub_btn button:hover {
+    background: hsl(0, 0%, 100%);
+
+    color:  hsl(25, 97%, 53%);
+}
+
+.hide_rating_section {
+    display: none;
+}
+
+.appreciation_section {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+    padding: 40px;
+}
+
+.show_appreciation_section {
+    display: flex;
+}
+
+.rating_num {
+    background: hsl(180, 1%, 22%);;
+    color: hsl(25, 97%, 53%);
+    padding: 8px;
+
+    border-radius: 20px;
+    margin: 15px 0 20px;
+}
+
+h1 + p {
+    width: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .rating_section,.appreciation_section {
+        max-width: 400px;
+    }
+}
