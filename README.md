@@ -25,8 +25,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Raymacmillan/Interactive-Rating-Component](https://your-solution-url.com)
+- Live Site URL: [https://raymacmillan.github.io/Interactive-Rating-Component/](https://your-live-site-url.com)
 
 ## My process
 
